@@ -42,3 +42,7 @@ Desordenadas
 - Esto es una lista desordenada
 - Esto es una lista desordenada
 
+# Links
+- Ejemplo html: <-a href="url">Esto es un link de Html<-/a> -> <a href="http://www.google.es">Esto es un link de Html</a>
+- Ejemplo Markdown: [Esto es un link en Markdown](http://www.google.es)
+- [Esto es un link al index](index.html)
