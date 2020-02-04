@@ -1,5 +1,6 @@
 TRABAJAR CON MARKDOWN
 =
+# Cabeceras
 
 # Cabeceras Ejemplo H1
 
@@ -13,11 +14,13 @@ TRABAJAR CON MARKDOWN
 
 ###### Cabecera H6
 
+# Underlines
 Underline 1
 ---
 Underline 2
 =
 
+# Formatos de Enfasis
 - letra *italica* de la primera forma.
 - letra _italica_ de la segunda forma.
 - formato **bold o strong** de la primera forma.
@@ -26,8 +29,16 @@ Underline 2
 
 Ejemplo de texto: aquí podemos usar *formato italica*, pero tambien **bold** y ~~tachado~~.
 
+# Listas
 
-Soy un readme.
+Ordenadas
+---
+1. Esto es un item 1. <-ol>
+2. Esto es un item 2.   
+3. Esto es un item 3.
 
-
+Desordenadas
+---
+- Esto es una lista desordenada
+- Esto es una lista desordenada
 
