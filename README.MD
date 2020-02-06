@@ -49,3 +49,76 @@ Desordenadas
 
 # Imagenes
 ![Logo Github](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+# Code Snippets
+Codigo JSON
+```JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```
+
+Codigo en Javascript
+```JAVASCRIPT
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+```
+# Tablas
+| Nombre | Apellidos | Documento |
+| ------ | --------- | --------- |
+| Alejandro | Acuna | 2145678 |
+| Pepe | Gutierrez | 3546887 |
+
+# Citas
+Esto es un texto de prueba para la creacion de una cita: 
+> Esto es una cita.
+
+Esto es otro texto que no es parte de la cita anterior:
+> Esto es otra cita.
+
+# Lineas Divisorias
+Esto es un texto que será dividido por guiones medios
+
+---
+
+Esto es otro texto dividido por asteriscos
+
+***
+
+Este es otro texto dividido por guiones bajos
+
+___
+
+# Saltos de Linea
+Esto nuestro primer parrafo.
+
+Esto es nuestro segundo parrafo y se separa con un enter.
+
